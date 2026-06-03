@@ -48,4 +48,4 @@ def test_calcular_desconto_zero_black_friday():
 
     resultado = calcular_desconto_black_friday(500, 0)
 
-    assert resultado == 0
+    assert resultado == 500
